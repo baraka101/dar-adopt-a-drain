@@ -2,6 +2,8 @@ development: &DEVELOPMENT
   adapter: postgresql
   database: adopt_a_thing_development
   host: localhost
+  username: postgres
+  password: 93baraka
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -12,10 +14,3 @@ test:
 
 production:
   <<: *DEVELOPMENT
-Host: ec2-54-83-18-87.compute-1.amazonaws.com
-database: db2klnnsrm3h7p
-User: igofksqlxopgvq
-Port: 5432
-Password: CteMpjMFAK7AfKFA72y00X5yTS
-Psql: heroku pg:psql --app dar-adopt-a-drain DATABASE
-Url: postgres://igofksqlxopgvq:CteMpjMFAK7AfKFA72y00X5yTS@ec2-54-83-18-87.compute-1.amazonaws.com:5432/db2klnnsrm3h7p
