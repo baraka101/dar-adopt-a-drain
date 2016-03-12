@@ -2,7 +2,7 @@
 
 en:
   buttons:
-    abandon: "Abandon this %{thing}"
+    abandon: "acha hii %{thing}"
     adopt: "Adopt!"
     back: "Back"
     change_password: "Change my password"
