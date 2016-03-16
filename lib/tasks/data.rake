@@ -6,7 +6,7 @@ namespace :data do
 
   task load_drains: :environment do
     puts 'Downloading Drains... ... ...'
-    url = 'https://data.sfgov.org/api/views/jtgq-b7c5/rows.csv?accessType=DOWNLOAD'
+    url = 'https://drive.google.com/file/d/0BwEpnPCcu7igT2JXTERBR191Z0E/view?usp=sharing'
     csv_string = open(url).read
     drains = CSV.parse(csv_string, headers: true)
     puts "Downloaded #{drains.size} Drains."
