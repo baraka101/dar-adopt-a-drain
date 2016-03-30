@@ -6,7 +6,7 @@ namespace :data do
 
   task load_drains: :environment do
     puts 'Downloading Drains... ... ...'
-    url = 'https://drive.google.com/file/d/0BwEpnPCcu7igbDEyNXFIS3hrbDA/view?usp=sharing?accessType=DOWNLOAD'
+    url = 'https://s3-us-west-2.amazonaws.com/dar-adopt-a-drain/Stormwater_inlets__drains_and_catch_basins_for_daresalaam3.csv.xls'
     
     csv_string = open(url).read
     drains = CSV.parse(csv_string, headers: true)
