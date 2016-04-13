@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Adopt-a-Drain
 
 [![Build Status](http://img.shields.io/travis/sfbrigade/adopt-a-drain.svg)][travis]
@@ -152,3 +153,6 @@ time of a major release, support for that Ruby version may be dropped.
 Copyright (c) 2015 Code for San Francisco. See [LICENSE.md](https://github.com/sfbrigade/adopt-a-drain/blob/master/LICENSE.md) for details.
 
 [license]: https://github.com/sfbrigade/adopt-a-drain/blob/master/LICENSE.md
+=======
+# dar-adopt-a-drain
+>>>>>>> 6b66b96d3a15acd7571bb2e8a9fdb400b655305c
